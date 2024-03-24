@@ -22,7 +22,7 @@
 ##
 # Imports classifier function for using CNN to classify images 
 from classifier import classifier 
-from os import listdir
+import os
 # TODO 3: Define classify_images function below, specifically replace the None
 #       below by the function definition of the classify_images function. 
 #       Notice that this function doesn't return anything because the 
@@ -67,7 +67,8 @@ def classify_images(images_dir, results_dic, model):
     """
     label=0
     for key in results_dic:
-        result=classifier(images_dir+key, model)
+        path=os.path.join(images_dir, key)
+        result=classifier(path, model)
         result=result.lower()
         result=result.strip()
         if results_dic[key][0] in result:
