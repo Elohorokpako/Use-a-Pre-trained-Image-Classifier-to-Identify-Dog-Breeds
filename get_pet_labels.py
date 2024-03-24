@@ -46,12 +46,11 @@ def get_pet_labels(image_dir):
     dog_dictionary={}
     for file in file_name:
         if file[0]!=".":
-            file=file.lower()
-            split_file=file.split("_")
+            lower_file=file.lower()
+            split_file=lower_file.split("_")
             name = ' '.join([item for item in split_file if item.isalpha()])
             if file not in dog_dictionary:
                 dog_dictionary[file] = [name.strip()]
             else:
                 print("** Warning: Duplicate files exist in directory:", file)
-
     return dog_dictionary
