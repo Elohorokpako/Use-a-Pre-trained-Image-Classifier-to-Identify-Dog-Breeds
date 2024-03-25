@@ -15,11 +15,11 @@ git clone https://github.com/Elohorokpako/Use-a-Pre-trained-Image-Classifier-to-
 Upload the images you wish to classify on the **uploaded_images** folder.
 When uploading the dog images, follow the naming format:
 
-animal_name_01.jpg
+animal_name_01.jpg, with names separated by underscores.
 
 Check the **pet_images** folder to see examples of how the animals are named.
 
-to classify the dogs, run the code
+To classify the dogs, run the code
 ```{r}
 sh run_models_batch_uploaded.sh 
 ```
@@ -34,5 +34,5 @@ and check the **alexnet_pet-images.txt**, **resnet_pet-images.txt**, and **vgg_p
 
 To view the results on the terminal for the classification of the **pet_images**, run
 ```{r}
-python python check_images.py 
+python check_images.py 
 ```
