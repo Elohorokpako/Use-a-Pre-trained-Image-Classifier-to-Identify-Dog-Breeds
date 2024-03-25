@@ -24,13 +24,13 @@ to classify the dogs, run the code
 sh run_models_batch_uploaded.sh 
 ```
 ### Results
-Check the **alexnet_uploaded-images.txt** **resnet_uploaded-images.txt** and **vgg_uploaded-images.txt** to see the results of the classification
+Check the **alexnet_uploaded-images.txt**, **resnet_uploaded-images.txt**, and **vgg_uploaded-images.txt** to see the results of the classification
 
 If you wish to see the results of the classification of the **pet_images** rather, run the codes
 ```{r}
 sh run_models_batch.sh 
 ```
-and check the **alexnet_pet-images.txt** **resnet_pet-images.txt** and **vgg_pet-images.txt** to see the results of the classification of the **pet_images** folder
+and check the **alexnet_pet-images.txt**, **resnet_pet-images.txt**, and **vgg_pet-images.txt** to see the results of the classification of the **pet_images** folder
 
 To view the results on the terminal for the classification of the **pet_images**, run
 ```{r}
