@@ -16,7 +16,7 @@ or,
 
 create a new environment using the environment.yml file and install all requirements
 ```{r}
-conda env create -f environment.yaml
+conda env create -f environment.yml
 ```
 ### Usage
 Upload the images you wish to classify on the **uploaded_images** folder.
