@@ -1,6 +1,10 @@
 # Use-a-Pre-trained-Image-Classifier-to-Identify-Dog-Breeds
 This is a Udacity-Guided project where I compared three classifiers: alexnet, rexnet and vgg in classifying dogs and dog breeds.
 
+First, clone the repo into your local machine
+```{r}
+git clone https://github.com/Elohorokpako/Use-a-Pre-trained-Image-Classifier-to-Identify-Dog-Breeds.git
+```
 ### Requirements
 You need to install pytorch to be able to run the codes. you can install pytorch separately or alternatively create a new environment using the environment.yml file, and install all requirements
 
@@ -15,10 +19,6 @@ create a new environment using the environment.yml file and install all requirem
 conda env create -f environment.yaml
 ```
 ### Usage
-First, clone the repo into your local machine
-```{r}
-git clone https://github.com/Elohorokpako/Use-a-Pre-trained-Image-Classifier-to-Identify-Dog-Breeds.git
-```
 Upload the images you wish to classify on the **uploaded_images** folder.
 When uploading the dog images, follow the naming format:
 
