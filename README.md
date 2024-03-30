@@ -2,10 +2,15 @@
 This is a Udacity-Guided project where I compared three classifiers: alexnet, rexnet and vgg in classifying dogs and dog breeds.
 
 ### Requirements
-You need to install pytorch to be able to run the codes.
+You need to install pytorch to be able to run the codes. you can install pytorch separately or alternatively create a new environment using the environment.yml file, and install all requirements
 You can install pytorch with pip
 ```{r}
 pip install pytorch
+```
+or,
+create a new environment using the environment.yml file and install all requirements
+```{r}
+conda env create -f environment.yaml
 ```
 ### Usage
 First, clone the repo into your local machine
