@@ -18,6 +18,10 @@ create a new environment using the environment.yml file and install all requirem
 ```{r}
 conda env create -f environment.yml
 ```
+Activate the environment.
+```{r}
+conda activate myenv
+```
 ### Usage
 Upload the images you wish to classify on the **uploaded_images** folder.
 When uploading the dog images, follow the naming format:
